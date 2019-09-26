@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: 'Roboto', sans-serif;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    line-height: 1;
+    width: 100%;
+    height: 100%;
+}
+ol,ul {
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background:
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px,
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,th,td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+q,blockquote {
+    quotes: none;
+}
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+    content: "";
+    content: none;
+}
+
+a img {
+    border: none;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,main,menu,nav,section,summary {
+    display: block;
+}
+
+
+h1 {
+    font-size: 2.25em;
+    padding: 0 1em;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ion-icon {
+    font-size: 35px;
+}
+
+.gap {
+    padding: 1em 0 0;
+}
+
+.padDown {
+    padding: 0.5em 0em 0.5em;
+}
+
+.outer {
+    padding: 20px;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.inner {
+    display: inline-block;
+    padding: 40px;
+}
+
+.avatar {
+    -moz-box-shadow: 0 0 0px 3px #333, 0 0 0 4px #333, 0 4px 6px #333;
+    -webkit-box-shadow: 0 0 0px 3px #333, 0 0 0 4px #333, 0 4px 6px #333;
+    box-shadow: 0 0 0px 3px #333, 0 0 0 4px #333, 0 4px 6px #333;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.loadanimation {
+    animation: 1s ease-in-out both fadeInRight;
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(300px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+
+.tile {
+    animation: .4s ease-in-out both fade-in;
+}
+
+.tile:nth-child(1) {
+    animation-delay: 1.35s;
+}
+
+.tile:nth-child(2) {
+    animation-delay: 1.5s;
+}
+
+.tile:nth-child(3) {
+    animation-delay: 1.65s;
+}
+
+.tile:nth-child(4) {
+    animation-delay: 1.8s;
+}
+
+.tile:nth-child(5) {
+    animation-delay: 1.95s;
+}
+
+.tile:nth-child(6) {
+    animation-delay: 2.1s;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.social li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    margin: .5em;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.social li:hover {
+    -moz-transform: scale(1.25, 1.25);
+    -ms-transform: scale(1.25, 1.25);
+    -webkit-transform: scale(1.25, 1.25);
+    transform: scale(1.25, 1.25);
+    color: white;
+}
+
+.social li:before {
+    position: absolute;
+    width: 2em;
+    margin-left: -1em;
+    top: 1.5em;
+    left: 50%;
+}
+
+.social li a {
+    display: block;
+    color: inherit;
+    padding: 1em 1em 1em;
+    width: 6em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.icon-resume {
+    color: #e95950;
+}
+
+.icon-resume:hover {
+    background: #e95950;
+    border-radius: 50px;
+}
+
+.icon-email {
+    color: #e95950;
+}
+
+.icon-email:hover {
+    background: #e95950;
+    border-radius: 50px;
+}
+
+.icon-github {
+    color: #333;
+}
+
+.icon-github:hover {
+    background: #333;
+    border-radius: 50px;
+}
+
+.icon-linkedin {
+    color: #ff7700;
+}
+
+.icon-linkedin:hover {
+    background: #ff7700;
+    border-radius: 50px;
+}
+
+.icon-transcript {
+    color: #ff7700;
+}
+
+.icon-transcript:hover {
+    background: #ff7700;
+    border-radius: 50px;
+}
+
+#spin {
+    color: red;
+}
+
+#spin:after {
+    content: "";
+    animation: spin 3.5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        content: "Java";
+    }
+    20% {
+        content: "Python";
+    }
+    40% {
+        content: "Node";
+    }
+    60% {
+        content: "JavaScript";
+    }
+    100% {
+        content: "PHP";
+    }
+}
+/*Background animation*/
