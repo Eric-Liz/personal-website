@@ -6,7 +6,7 @@
     font-size: 100%;
     vertical-align: baseline;
 }
-waterMarkRemove[title*="000webhost.com"]{
+a[title*="000webhost.com"]{
 	display: none;
 }
 html {
